@@ -1,0 +1,17 @@
+{
+  "name": "ai-temperature-stabilizer",
+  "version": "1.0.0",
+  "description": "Middleware para estabilizar la generación de LLMs al ajustar temperaturas por perfil de usuario.",
+  "main": "src/aiTemperatureControl.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/demo.js"
+  },
+  "keywords": ["AI", "LLM", "temperature", "stabilizer", "OpenAI"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.9.0",
+    "dotenv": "^16.3.1"
+  }
+}
